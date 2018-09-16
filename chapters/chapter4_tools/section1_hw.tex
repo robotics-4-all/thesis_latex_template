@@ -1,0 +1,104 @@
+\section{NVIDIA Jetson TK1 development board}
+\label{sec:jetson_tk1}
+
+Στο κεφάλαιο αυτό παρουσιάζεται η ενσωματωμένη πλατφόρμα Jetson TK1 της NVIDIA,
+η οποία χρησιμοποιήθηκε για εφαρμογή των υλοποιήσεων για
+\emph{Αναγνώριση και Εντοπισμό Αντικειμένων} σε συστήματα πραγματικού χρόνου,
+χρησιμοποιώντας Νευρωνικά Δίκτυα Συνέλιξης.
+
+Ο \emph{Tegra K1} είναι το πρώτο SoC της NVIDIA για φορητές συσκευές, με προηγμένη αρχιτεκτονική
+και χαρακτηριστικά, καθώς και χαμηλή κατανάλωση ισχύος. Η τυπική κατανάλωση
+ισχύος αναφέρεται στα $0.6 - 3$ Watt ενώ η μέγιστη μπορεί να φθάσει μέχρι και τα
+$15$ Watt σε κατάσταση μέγιστης λειτουργίας των μονάδων CPU, GPU και ISP.
+
+Ένα επίσης ενδιαφέρον χαρακτηριστικό του συγκεκριμένου SoC είναι η τιμή του
+λόγου της απόδοσης ανά μονάδα ισχύος κατανάλωσης (performance per watt),
+η οποία αναφέρεται στα $26SP Giga-flops/Watt$
+\footnote{Λόγος απόδοσης ανά μονάδα ισχύος: \url{http://tinyurl.com/lrl9glf}}
+
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.7\textwidth]{./images/chapter4/nvidia_tegrak1_block2.jpg}
+  \caption{Tegra K1 SoC}
+  \label{fig:tegrak1soc}
+\end{figure}
+\noindent
+
+Όπως φαίνεται στο \autoref{fig:tegrak1soc}, τα βασικά τεχνικά χαρακτηριστικά του Tegra K1 SoC είναι:
+\begin{itemize}
+  \item{CPU: Quad-core ARM Cortex-A15 CPU, 2.3Ghz}
+  \item{GPU: GK20A Kepler-based GPU with 192 CUDA cores}
+  \item{RAM: DDR3L/LPDDR3, up to 8GB}
+  \item{Peripherals I/O: USB, eMMC/SD-card, LVDS, HDMI, SPI, UART, I2C, SATA, PCIe}
+  \item{ISP: Image processor}
+\end{itemize}
+
+Στα πλαίσια της παρούσας διπλωματικής εργασίας, επιλέχθηκε η χρήση του
+\emph{Jetson TK1} development board της NVIDIA, που φαίνετaι στο \autoref{fig:jetson_tk1}.
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.9\textwidth]{./images/chapter4/jetson-tk1-labelled.jpg}
+  \caption[Jetson TK1 development board]{Jetson TK1 development board}
+  \label{fig:jetson_tk1}
+\end{figure}
+Το Jetson TK1 ενσωματώνει το Tegra K1 SoC (CPU+GPU+ISP)
+και είναι πλήρως συμβατό με διάφορες διανομές λειτουργικών συστημάτων Linux (Ubuntu, Debian, Arch, Fedora, openSUSE, Gentoo).
+Η πλήρης συμβατότητα και υποστήριξη του λειτουργικού συστήματος Linux ήταν βασικό κριτήριο
+στην επιλογή του συγκεκριμένου ενσωματωμένου συστήματος, αφού επιτρέπει την
+εγκατάσταση εργαλείων με τον ίδιο τρόπο όπως σε ένα σταθερό υπολογιστικό σύστημα (Desktop PC)
+το οποίο τρέχει Linux OS. Πέρα από την συμβατότητα με κλασσικές διανομές Linux OS,
+η NVIDIA έχει αναπτύξει δικό της λειτουργικό σύστημα, \emph{Linux4Tegra}, το οποίο
+έχει ως βάση τα Ubuntu-14.04, με κάποιες επεκτάσεις για πλήρη υποστήριξη του hardware του Jetson TK1.
+Επιπλέον, παράγοντας στην επιλογή της συγκεκριμένης πλατφόρμας είναι η πληθώρα των διεπαφών (interfaces) που
+διαθέτει, κάνοντάς την χρήσιμη για εφαρμογή σε ρομποτικά συστήματα όπου η σύνδεση διαφόρων περιφερειακών συσκευών,
+όπως για παράδειγμα αισθητήρες, κάμερες, κινητήρες, σερβο-κινητήρες, είναι απαίτηση.
+Πιο κάτω δίνονται οι βασικές διεπαφές που προσφέρει η πλατφόρμα Jetson TK1:
+\begin{itemize}
+  \setlength\itemsep{0em}
+  \item{mini-PCIe: Σύνδεση πρόσθετων συσκευών στον δίαυλο PCI-Express όπως, Wifi cards, SSD δίσκων, κτλ.}
+  \item{USB 2.0 port: Σύνδεση συσκευών ή/και αισθητήρων με διεπαφή eHCI (Extended Host Controller Interface)}
+  \item{USB 3.0 port: Σύνδεση συσκευών ή/και αισθητήρων με διεπαφή xHCI (eXtensible Host Controller Interface)}
+  \item{HDMI: Δυνατότητα σύνδεσης οθόνης}
+  \item{RS232 port: Παρόλο που το RS232 είναι αρκετά παλιό πρωτόκολλο, εξακολουθεί να ενσωματώνεται σε διάφορες συσκευές που δεν απαιτούν μεγάλο όγκο μεταφοράς δεδομένων, όπως οι οδηγοί κινητήρων}
+  \item{Audio IO}
+  \item{Gigabit Ethernet LAN: Δικτύωση της πλατφόρμας με τον "έξω" κόσμο}
+  \item{SATA: Επιτρέπει την σύνδεση σκληρού δίσκου SATA}
+  \item{JTAG port: Το JTAG προσφέρει την δυνατότητα σύνδεσης συσκευής/προγράμματος εντοπισμού σφαλμάτων (debugger), για HW-oriented αποσφαλμάτωση}
+  \item{UART port}
+  \item{I2C ports: Διαθέτει τρεις θύρες I2C για σύνδεση αισθητήρων/συσκευών που οδηγούνται με το συγκεκριμένο πρωτόκολλο}
+  \item{GPIO: Προσφέρει δύο θύρες επέκτασης (expansion ports), με 50 και 75 ακροδέκτες αντίστοιχα. Χρήσιμο κυρίως για επικοινωνία συσκευών με SPI, οδήγηση σερβο-κινητήρων, διακλάδωση τροφοδοσίας σε τρίτες συσκευές, κτλ.}
+\end{itemize}
+
+Η κατανάλωση ισχύος της πλατφόρμας Jetson TK1 εξαρτάται τόσο από την χρήση
+του SoC, αλλά και από την χρήση των περιφερειακών διεπαφών που διαθέτει. Η
+ζήτηση (κατα απόλυτο μέγεθος) σε ηλεκτρική ισχύ για το παρόν ενσωματομένο σύστημα,
+σε περίπτωση πλήρους λειτουργίας του (περιλαμβανόμενης της χρήσης του διάυλου SATA \& PCIe )
+αναφέρεται περίπου στα 58 Watt \footnote{\url{http://elinux.org/Jetson/Jetson_TK1_Power\#Typical_power_draw_of_Jetson_TK1}}.
+
+Όσον αφορά την υλοποίηση και ανάπτυξη Νευρωνικών Δικτύων σε ενσωματωμένα συστήματα,
+η πλατφόρμα Jetson TK1 θεωρείται ιδανική αφού υποστηρίζει CUDA και cuDNN.
+H cuDNN (CUDA Deep Neural Network library) είναι GPU-accelerated βιβλιοθήκη για Νευρωνικά Δίκτυα,
+η οποία αναπτύχθηκε από την NVIDIA και προσφέρει υψηλού επιπέδου υλοποιήσεις για ρουτίνες όπως συνέλιξη,
+κανονικοποίηση δεδομένων, pooling, επίπεδα ενεργοποίησης, κτλ.
+Η βιβλιοθήκη cuDNN χρησιμοποιείται και ενσωματώνεται στα πιο δημοφιλή εργαλεία σχεδίασης και υλοποίησης μοντέλων DNN,
+τα οποία και παρουσιάζονται στο \autoref{sec:dnn_sw}.
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.6\textwidth]{./images/chapter4/cortex_A15_chip_diagram.png}
+  \caption[ARM Cortex-A15 processor]{ARM Cortex-A15 processor}
+  \label{fig:cortex_A15}
+\end{figure}
+
+Ένα από τα μειονεκτήματα της πλατφόρμας Jetson TK1 είναι η αρχιτεκτονική 32 bit του επεξεργαστή ARM Cortex-A15 MPCore
+που έχει ενσωματωμένο (\autoref{fig:cortex_A15}). Με την εμφάνιση των επεξεργαστών ARM Cortex-A57,
+οι οποίοι είναι αρχιτεκτονικής 64 bit,
+η υποστήριξη σε λογισμικό, τόσο από την πλευρά της NVIDIA όσο και από την ανοικτού-κώδικα (open-source) κοινότητα, μειώθηκε.
+Η NVIDIA σταμάτησε να υποστηρίζει μηχανήματα αρχιτεκτονικής 32 bit, τις βιβλιοθήκες CUDA και cuDNN,
+από την έκτη και δεύτερη έκδοση αντίστοιχα. Η CUDA είναι σήμερα στην έκδοση 8 και η cuDNN στην έκδοση 5,
+οι οποίες φέρουν αναβαθμίσεις στην επίδοση των αλγορίθμων βαθιάς εκμάθησης
+\footnote{\href{https:/developer/nvidia/cudnn}{https:/developer/nvidia/cudnn}}.
+Στο \autoref{chapter:conclusions} γίνεται αναφορά στα προβλήματα που παρουσιάστηκαν
+εξαιτίας της ασυμβατότητας των συγκεκριμένων εργαλείων λογισμικού στο Jetson TK1.
+

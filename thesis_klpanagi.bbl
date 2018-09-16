@@ -1,0 +1,289 @@
+\begin{thebibliography}{35}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Barr κ.α.(1989)Barr, Cohen, και Feigenbaum]{barr1989handbook}
+Avron Barr, Paul~R Cohen, and Edward~A Feigenbaum.
+\newblock \emph{``The handbook of Artificial Intelligence, volume IV}``, 1989.
+
+\bibitem[Campbell κ.α.(2002)Campbell, Hoane, και Hsu]{campbell2002deep}
+Murray Campbell, A~Joseph Hoane, and Feng-hsiung Hsu.
+\newblock \emph{``Deep blue}``.
+\newblock Artificial intelligence, 134\penalty0 (1):\penalty0 57--83, 2002.
+
+\bibitem[Krizhevsky κ.α.(2012)Krizhevsky, Sutskever, και
+  Hinton]{NIPS2012_4824}
+Alex Krizhevsky, Ilya Sutskever, and Geoffrey~E. Hinton.
+\newblock \emph{``ImageNet Classification with Deep Convolutional Neural
+  Networks}``.
+\newblock In F.~Pereira, C.~J.~C. Burges, L.~Bottou, and K.~Q. Weinberger,
+  editors, \emph{``Advances in Neural Information Processing Systems 25}``,
+  pages 1097--1105. Curran Associates, Inc., 2012.
+
+\bibitem[Abuzaid()]{abuzaidoptimizing}
+Firas Abuzaid.
+\newblock \emph{``Optimizing CPU Performance for Convolutional Neural
+  Networks}``.
+
+\bibitem[Mori κ.α.(2012)Mori, MacDorman, και Kageki]{mori2012uncanny}
+Masahiro Mori, Karl~F MacDorman, and Norri Kageki.
+\newblock \emph{``The uncanny valley [from the field]}``.
+\newblock IEEE Robotics \& Automation Magazine, 19\penalty0 (2):\penalty0
+  98--100, 2012.
+
+\bibitem[Goodfellow κ.α.(2016)Goodfellow, Bengio, και
+  Courville]{Goodfellow-et-al-2016-Book}
+Ian Goodfellow, Yoshua Bengio, and Aaron Courville.
+\newblock \emph{``Deep Learning}``.
+\newblock Book in preparation for MIT Press, 2016.
+\newblock URL \url{http://www.deeplearningbook.org}.
+
+\bibitem[Bengio κ.α.(2013)Bengio, Courville, και
+  Vincent]{bengio2013representation}
+Yoshua Bengio, Aaron Courville, and Pascal Vincent.
+\newblock \emph{``Representation learning: A review and new perspectives}``.
+\newblock IEEE transactions on pattern analysis and machine intelligence,
+  35\penalty0 (8):\penalty0 1798--1828, 2013.
+
+\bibitem[LeCun κ.α.(1998)LeCun, Bottou, Bengio, και
+  Haffner]{lecun1998gradient}
+Yann LeCun, L{\'e}on Bottou, Yoshua Bengio, and Patrick Haffner.
+\newblock \emph{``Gradient-based learning applied to document recognition}``.
+\newblock Proceedings of the IEEE, 86\penalty0 (11):\penalty0 2278--2324, 1998.
+
+\bibitem[Zeiler και Fergus(2013)]{DBLP:journals/corr/ZeilerF13}
+Matthew~D. Zeiler and Rob Fergus.
+\newblock \emph{``Visualizing and Understanding Convolutional Networks}``.
+\newblock CoRR, abs/1311.2901, 2013.
+
+\bibitem[Szegedy κ.α.(2013)Szegedy, Toshev, και Erhan]{szegedy2013deep}
+Christian Szegedy, Alexander Toshev, and Dumitru Erhan.
+\newblock \emph{``Deep neural networks for object detection}``.
+\newblock In \emph{``Advances in Neural Information Processing Systems}``,
+  pages 2553--2561, 2013.
+
+\bibitem[Sermanet κ.α.(2013)Sermanet, Eigen, Zhang, Mathieu, Fergus, και
+  LeCun]{sermanet2013overfeat}
+Pierre Sermanet, David Eigen, Xiang Zhang, Micha{\"e}l Mathieu, Rob Fergus, and
+  Yann LeCun.
+\newblock \emph{``Overfeat: Integrated recognition, localization and detection
+  using convolutional networks}``.
+\newblock arXiv preprint arXiv:1312.6229, 2013.
+
+\bibitem[He κ.α.(2015{\natexlab{a}})He, Zhang, Ren, και
+  Sun]{DBLP:journals/corr/HeZRS15}
+Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun.
+\newblock \emph{``Deep Residual Learning for Image Recognition}``.
+\newblock CoRR, abs/1512.03385, 2015{\natexlab{a}}.
+
+\bibitem[Girshick(2015)]{DBLP:journals/corr/Girshick15}
+Ross~B. Girshick.
+\newblock \emph{``Fast {R-CNN}}``.
+\newblock CoRR, abs/1504.08083, 2015.
+
+\bibitem[Redmon κ.α.(2015)Redmon, Divvala, Girshick, και
+  Farhadi]{DBLP:journals/corr/RedmonDGF15}
+Joseph Redmon, Santosh~Kumar Divvala, Ross~B. Girshick, and Ali Farhadi.
+\newblock \emph{``You Only Look Once: Unified, Real-Time Object Detection}``.
+\newblock CoRR, abs/1506.02640, 2015.
+
+\bibitem[Michalski κ.α.(2013)Michalski, Carbonell, και
+  Mitchell]{michalski2013machine}
+Ryszard~S Michalski, Jaime~G Carbonell, and Tom~M Mitchell.
+\newblock \emph{``Machine learning: An artificial intelligence approach}``.
+\newblock Springer Science \& Business Media, 2013.
+
+\bibitem[Baldi(2012)]{baldi2012autoencoders}
+Pierre Baldi.
+\newblock \emph{``Autoencoders, unsupervised learning, and deep
+  architectures.}``.
+\newblock ICML unsupervised and transfer learning, 27\penalty0
+  (37-50):\penalty0 1, 2012.
+
+\bibitem[He κ.α.(2015{\natexlab{b}})He, Zhang, Ren, και
+  Sun]{DBLP:journals/corr/HeZR015}
+Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun.
+\newblock \emph{``Delving Deep into Rectifiers: Surpassing Human-Level
+  Performance on ImageNet Classification}``.
+\newblock CoRR, abs/1502.01852, 2015{\natexlab{b}}.
+
+\bibitem[Goodfellow κ.α.(2013)Goodfellow, Warde-Farley, Mirza, Courville,
+  και Bengio]{goodfellow2013maxout}
+Ian~J Goodfellow, David Warde-Farley, Mehdi Mirza, Aaron~C Courville, and
+  Yoshua Bengio.
+\newblock \emph{``Maxout networks.}``.
+\newblock ICML (3), 28:\penalty0 1319--1327, 2013.
+
+\bibitem[Rumelhart κ.α.(1988)Rumelhart, Hinton, και
+  Williams]{rumelhart1988learning}
+David~E Rumelhart, Geoffrey~E Hinton, and Ronald~J Williams.
+\newblock \emph{``Learning representations by back-propagating errors}``.
+\newblock Cognitive modeling, 5\penalty0 (3):\penalty0 1, 1988.
+
+\bibitem[Jia κ.α.(2014)Jia, Shelhamer, Donahue, Karayev, Long, Girshick,
+  Guadarrama, και Darrell]{jia2014caffe}
+Yangqing Jia, Evan Shelhamer, Jeff Donahue, Sergey Karayev, Jonathan Long, Ross
+  Girshick, Sergio Guadarrama, and Trevor Darrell.
+\newblock \emph{``Caffe: Convolutional Architecture for Fast Feature
+  Embedding}``.
+\newblock arXiv preprint arXiv:1408.5093, 2014.
+
+\bibitem[Abadi κ.α.(2016{\natexlab{a}})Abadi, Barham, Chen, Chen, Davis,
+  Dean, Devin, Ghemawat, Irving, Isard, Kudlur, Levenberg, Monga, Moore,
+  Murray, Steiner, Tucker, Vasudevan, Warden, Wicke, Yu, και
+  Zhang]{DBLP:journals/corr/AbadiBCCDDDGIIK16}
+Mart{\'{\i}}n Abadi, Paul Barham, Jianmin Chen, Zhifeng Chen, Andy Davis,
+  Jeffrey Dean, Matthieu Devin, Sanjay Ghemawat, Geoffrey Irving, Michael
+  Isard, Manjunath Kudlur, Josh Levenberg, Rajat Monga, Sherry Moore,
+  Derek~Gordon Murray, Benoit Steiner, Paul~A. Tucker, Vijay Vasudevan, Pete
+  Warden, Martin Wicke, Yuan Yu, and Xiaoqiang Zhang.
+\newblock \emph{``TensorFlow: {A} system for large-scale machine learning}``.
+\newblock CoRR, abs/1605.08695, 2016{\natexlab{a}}.
+
+\bibitem[Al-Rfou κ.α.(2016)Al-Rfou, Alain, Almahairi, Angermueller, Bahdanau,
+  Ballas, Bastien, Bayer, Belikov, Belopolsky, Bengio, Bergeron, Bergstra,
+  Bisson, {Bleecher Snyder}, Bouchard, Boulanger-Lewandowski, Bouthillier,
+  de~Br\'ebisson, Breuleux, Carrier, Cho, Chorowski, Christiano, Cooijmans,
+  C\^ot\'e, C\^ot\'e, Courville, Dauphin, Delalleau, Demouth, Desjardins,
+  Dieleman, Dinh, Ducoffe, Dumoulin, {Ebrahimi Kahou}, Erhan, Fan, Firat,
+  Germain, Glorot, Goodfellow, Graham, Gulcehre, Hamel, Harlouchet, Heng,
+  Hidasi, Honari, Jain, Jean, Jia, Korobov, Kulkarni, Lamb, Lamblin, Larsen,
+  Laurent, Lee, Lefrancois, Lemieux, L\'eonard, Lin, Livezey, Lorenz, Lowin,
+  Ma, Manzagol, Mastropietro, McGibbon, Memisevic, van Merri\"enboer,
+  Michalski, Mirza, Orlandi, Pal, Pascanu, Pezeshki, Raffel, Renshaw, Rocklin,
+  Romero, Roth, Sadowski, Salvatier, Savard, Schl\"uter, Schulman, Schwartz,
+  Serban, Serdyuk, Shabanian, Simon, Spieckermann, Subramanyam, Sygnowski,
+  Tanguay, van Tulder, Turian, Urban, Vincent, Visin, de~Vries, Warde-Farley,
+  Webb, Willson, Xu, Xue, Yao, Zhang, και Zhang]{2016arXiv160502688full}
+Rami Al-Rfou, Guillaume Alain, Amjad Almahairi, Christof Angermueller, Dzmitry
+  Bahdanau, Nicolas Ballas, Fr\'ed\'eric Bastien, Justin Bayer, Anatoly
+  Belikov, Alexander Belopolsky, Yoshua Bengio, Arnaud Bergeron, James
+  Bergstra, Valentin Bisson, Josh {Bleecher Snyder}, Nicolas Bouchard, Nicolas
+  Boulanger-Lewandowski, Xavier Bouthillier, Alexandre de~Br\'ebisson, Olivier
+  Breuleux, Pierre-Luc Carrier, Kyunghyun Cho, Jan Chorowski, Paul Christiano,
+  Tim Cooijmans, Marc-Alexandre C\^ot\'e, Myriam C\^ot\'e, Aaron Courville,
+  Yann~N. Dauphin, Olivier Delalleau, Julien Demouth, Guillaume Desjardins,
+  Sander Dieleman, Laurent Dinh, M\'elanie Ducoffe, Vincent Dumoulin, Samira
+  {Ebrahimi Kahou}, Dumitru Erhan, Ziye Fan, Orhan Firat, Mathieu Germain,
+  Xavier Glorot, Ian Goodfellow, Matt Graham, Caglar Gulcehre, Philippe Hamel,
+  Iban Harlouchet, Jean-Philippe Heng, Bal\'azs Hidasi, Sina Honari, Arjun
+  Jain, S\'ebastien Jean, Kai Jia, Mikhail Korobov, Vivek Kulkarni, Alex Lamb,
+  Pascal Lamblin, Eric Larsen, C\'esar Laurent, Sean Lee, Simon Lefrancois,
+  Simon Lemieux, Nicholas L\'eonard, Zhouhan Lin, Jesse~A. Livezey, Cory
+  Lorenz, Jeremiah Lowin, Qianli Ma, Pierre-Antoine Manzagol, Olivier
+  Mastropietro, Robert~T. McGibbon, Roland Memisevic, Bart van Merri\"enboer,
+  Vincent Michalski, Mehdi Mirza, Alberto Orlandi, Christopher Pal, Razvan
+  Pascanu, Mohammad Pezeshki, Colin Raffel, Daniel Renshaw, Matthew Rocklin,
+  Adriana Romero, Markus Roth, Peter Sadowski, John Salvatier, Fran\c{c}ois
+  Savard, Jan Schl\"uter, John Schulman, Gabriel Schwartz, Iulian~Vlad Serban,
+  Dmitriy Serdyuk, Samira Shabanian, \'Etienne Simon, Sigurd Spieckermann,
+  S.~Ramana Subramanyam, Jakub Sygnowski, J\'er\'emie Tanguay, Gijs van Tulder,
+  Joseph Turian, Sebastian Urban, Pascal Vincent, Francesco Visin, Harm
+  de~Vries, David Warde-Farley, Dustin~J. Webb, Matthew Willson, Kelvin Xu,
+  Lijun Xue, Li~Yao, Saizheng Zhang, and Ying Zhang.
+\newblock \emph{``{Theano: A {Python} framework for fast computation of
+  mathematical expressions}}``.
+\newblock arXiv e-prints, abs/1605.02688, May 2016.
+
+\bibitem[Bergstra κ.α.(2010)Bergstra, Breuleux, Bastien, Lamblin, Pascanu,
+  Desjardins, Turian, Warde-Farley, και Bengio]{bergstra+al:2010-scipy}
+James Bergstra, Olivier Breuleux, Fr{\'{e}}d{\'{e}}ric Bastien, Pascal Lamblin,
+  Razvan Pascanu, Guillaume Desjardins, Joseph Turian, David Warde-Farley, and
+  Yoshua Bengio.
+\newblock \emph{``Theano: a {CPU} and {GPU} Math Expression Compiler}``.
+\newblock In \emph{``Proceedings of the Python for Scientific Computing
+  Conference ({SciPy})}``, June 2010.
+\newblock Oral Presentation.
+
+\bibitem[Bastien κ.α.(2012)Bastien, Lamblin, Pascanu, Bergstra, Goodfellow,
+  Bergeron, Bouchard, και Bengio]{Bastien-Theano-2012}
+Fr{\'{e}}d{\'{e}}ric Bastien, Pascal Lamblin, Razvan Pascanu, James Bergstra,
+  Ian~J. Goodfellow, Arnaud Bergeron, Nicolas Bouchard, and Yoshua Bengio.
+\newblock \emph{``Theano: new features and speed improvements}``.
+\newblock Deep Learning and Unsupervised Feature Learning NIPS 2012 Workshop,
+  2012.
+
+\bibitem[Collobert κ.α.(2002)Collobert, Bengio, και
+  Mari{\'e}thoz]{collobert2002torch}
+Ronan Collobert, Samy Bengio, and Johnny Mari{\'e}thoz.
+\newblock \emph{``Torch: a modular machine learning software library}``.
+\newblock Technical report, Idiap, 2002.
+
+\bibitem[Collobert κ.α.(2011)Collobert, Kavukcuoglu, και
+  Farabet]{collobert2011torch7}
+Ronan Collobert, Koray Kavukcuoglu, and Cl{\'e}ment Farabet.
+\newblock \emph{``Torch7: A matlab-like environment for machine learning}``.
+\newblock In \emph{``BigLearn, NIPS Workshop}``, number EPFL-CONF-192376, 2011.
+
+\bibitem[Collobert κ.α.(2012)Collobert, Kavukcuoglu, και
+  Farabet]{collobert2012implementing}
+Ronan Collobert, Koray Kavukcuoglu, and Cl{\'e}ment Farabet.
+\newblock \emph{``Implementing neural networks efficiently}``.
+\newblock In \emph{``Neural Networks: Tricks of the Trade}``, pages 537--557.
+  Springer, 2012.
+
+\bibitem[Chollet(2015)]{chollet2015keras}
+Fran\c{c}ois Chollet.
+\newblock \emph{``Keras}``.
+\newblock \url{https://github.com/fchollet/keras}, 2015.
+
+\bibitem[Seide και Agarwal(2016)]{Seide:2016:CMO:2939672.2945397}
+Frank Seide and Amit Agarwal.
+\newblock \emph{``CNTK: Microsoft's Open-Source Deep-Learning Toolkit}``.
+\newblock In \emph{``Proceedings of the 22Nd ACM SIGKDD International
+  Conference on Knowledge Discovery and Data Mining}``, KDD '16, pages
+  2135--2135, New York, NY, USA, 2016. ACM.
+\newblock ISBN 978-1-4503-4232-2.
+
+\bibitem[Abadi κ.α.(2016{\natexlab{b}})Abadi, Agarwal, Barham, Brevdo, Chen,
+  Citro, Corrado, Davis, Dean, Devin, Ghemawat, Goodfellow, Harp, Irving,
+  Isard, Jia, J{\'{o}}zefowicz, Kaiser, Kudlur, Levenberg, Man{\'{e}}, Monga,
+  Moore, Murray, Olah, Schuster, Shlens, Steiner, Sutskever, Talwar, Tucker,
+  Vanhoucke, Vasudevan, Vi{\'{e}}gas, Vinyals, Warden, Wattenberg, Wicke, Yu,
+  και Zheng]{DBLP:journals/corr/AbadiABBCCCDDDG16}
+Mart{\'{\i}}n Abadi, Ashish Agarwal, Paul Barham, Eugene Brevdo, Zhifeng Chen,
+  Craig Citro, Gregory~S. Corrado, Andy Davis, Jeffrey Dean, Matthieu Devin,
+  Sanjay Ghemawat, Ian~J. Goodfellow, Andrew Harp, Geoffrey Irving, Michael
+  Isard, Yangqing Jia, Rafal J{\'{o}}zefowicz, Lukasz Kaiser, Manjunath Kudlur,
+  Josh Levenberg, Dan Man{\'{e}}, Rajat Monga, Sherry Moore, Derek~Gordon
+  Murray, Chris Olah, Mike Schuster, Jonathon Shlens, Benoit Steiner, Ilya
+  Sutskever, Kunal Talwar, Paul~A. Tucker, Vincent Vanhoucke, Vijay Vasudevan,
+  Fernanda~B. Vi{\'{e}}gas, Oriol Vinyals, Pete Warden, Martin Wattenberg,
+  Martin Wicke, Yuan Yu, and Xiaoqiang Zheng.
+\newblock \emph{``TensorFlow: Large-Scale Machine Learning on Heterogeneous
+  Distributed Systems}``.
+\newblock CoRR, abs/1603.04467, 2016{\natexlab{b}}.
+
+\bibitem[Karpathy(2015)]{karpathy2014convnetjs}
+Andrej Karpathy.
+\newblock \emph{``Convnetjs-deep learning in your browser, 2015}``.
+\newblock \url{https://github.com/karpathy/convnetjs}, 2015.
+
+\bibitem[LeCun κ.α.(2015)LeCun, Bengio, και Hinton]{lecun2015deep}
+Yann LeCun, Yoshua Bengio, and Geoffrey Hinton.
+\newblock \emph{``Deep learning}``.
+\newblock Nature, 521\penalty0 (7553):\penalty0 436--444, 2015.
+
+\bibitem[Simonyan και Zisserman(2014)]{Simonyan14c}
+K.~Simonyan and A.~Zisserman.
+\newblock \emph{``Very Deep Convolutional Networks for Large-Scale Image
+  Recognition}``.
+\newblock CoRR, abs/1409.1556, 2014.
+
+\bibitem[Redmon(2013--2016)]{darknet13}
+Joseph Redmon.
+\newblock \emph{``Darknet: Open Source Neural Networks in C}``.
+\newblock \url{http://pjreddie.com/darknet/}, 2013--2016.
+
+\bibitem[Grant κ.α.(2016)Grant, Levenhagen, Olivier, DeBonis, Pedretti,
+  και III]{grant2016standardizing}
+R.~E. Grant, M.~Levenhagen, S.~L. Olivier, D.~DeBonis, K.~T. Pedretti, and
+  J.~H.~Laros III.
+\newblock \emph{``Standardizing Power Monitoring and Control at Exascale}``.
+\newblock Computer, 49\penalty0 (10):\penalty0 38--46, Oct 2016.
+\newblock ISSN 0018-9162.
+
+\end{thebibliography}
